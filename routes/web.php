@@ -18,3 +18,8 @@ Route::get('/', function () {
 Route::get('about', funtion(){
 	return 'About';
 })
+
+// Add reporting feature
+Route::get('reporting', funtion() {
+	return 'Reporting section.';
+})
